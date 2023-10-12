@@ -1,1 +1,51 @@
+/* App.css */
 
+.app {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    background-color: purple;
+    color: white;
+    padding: 1rem;
+    width: 50%;
+}
+
+.options {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.left-buttons  button {
+    margin: 2px;
+    padding: 10px;
+    background-color: green;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-buttons button {
+    margin: 2px;
+    padding: 10px;
+    background-color: orange;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 1rem;
+}
